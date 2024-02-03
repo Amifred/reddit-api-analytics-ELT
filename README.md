@@ -8,7 +8,6 @@ The orchestration of the pipeline is handled by Apache Airflow running in a Dock
 
 ## Architecture
 
-![workflow image](https://github.com/jrdegbe/reddit-api-analytics-ELT/blob/146005d576a97b58f8c1cce1f6211f641e0f6e25/images/Workflow.jpg "Workflow Image")
 
 1. Data extraction: Data is extracted from the [Reddit API](https://www.reddit.com/dev/api/) using the PRAW API wrapper.
 2. AWS resources setup: Terraform is used to create necessary AWS resources, including S3 buckets and Redshift cluster.
